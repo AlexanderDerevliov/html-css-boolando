@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 
-img {max-width: 100%;}
+img {max-width: 100%;
+}
 
 /* HEADER */
 
@@ -23,10 +24,9 @@ img {max-width: 100%;}
 /* MAIN */
 
 .container { 
-    border: 1px solid black;
     width: 60%;
     margin: 6rem auto;
-    min-height: 800px;
+    
  
 }
 
@@ -34,14 +34,85 @@ img {max-width: 100%;}
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: .5rem;
+    align-items: center;
+    vertical-align: middle;
    
 }
 
 .column {
-    display: flex;
-    background-color: lightgray;
-    border: 1px solid black;
-    min-height: 400px;
     width: calc(95% / 3);
+    
+}
+
+/* IMMAGINI HOVER SETTINGS */
+
+
+.img1 {
+  display: block;
+  
+}  
+
+.img2 {
+    display: none;
+    
+    
+}
+
+.change-img:hover .img1 {
+    display: none;
+  
+}
+
+.change-img:hover .img2 {
+    display: block;
+    
+}
+.brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+.wrong-price {
+    font-size: .8rem;
+    text-decoration: line-through;
+
+}
+.card {
+    position: relative;
+}
+
+.red {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    padding: 0.3rem;
+}
+.green {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+    padding: 0.3rem;
+}
+.green1 {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    padding: 0.3rem;
 }
