@@ -6,3 +6,42 @@
 }
 
 img {max-width: 100%;}
+
+/* HEADER */
+
+
+
+
+
+/* NAVIGATION */
+
+
+
+
+
+
+/* MAIN */
+
+.container { 
+    border: 1px solid black;
+    width: 60%;
+    margin: 6rem auto;
+    min-height: 800px;
+ 
+}
+
+.raw {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+   
+}
+
+.column {
+    display: flex;
+    background-color: lightgray;
+    border: 1px solid black;
+    min-height: 400px;
+    width: calc(95% / 3);
+}
