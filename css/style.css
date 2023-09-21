@@ -12,15 +12,12 @@ img {max-width: 100%;
 
 a {
     color: inherit;
-    padding: 0 .5rem;
 }
 
 .gender {
     color: white;
-    text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
-  
 }
 
 
@@ -38,17 +35,28 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
 }
 
 .logo {
     height: 50px;
 }
 
-a.login {
+.login {
     color: white;
-    padding: 0 .5rem;
+    padding: 0 1.3rem;
     
+}
+
+.gender-right {
+    padding: 0 .5rem; 
+    
+}
+
+
+
+.login-side {
+    font-size: 1.2rem;
 }
 
 
