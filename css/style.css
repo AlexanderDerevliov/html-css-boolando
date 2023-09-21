@@ -8,9 +8,48 @@
 img {max-width: 100%;
 }
 
+/* COMMON */
+
+a {
+    color: inherit;
+    padding: 0 .5rem;
+}
+
+.gender {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  
+}
+
+
 /* HEADER */
+header {
+    background-color: darkorange;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
 
+.logo {
+    height: 50px;
+}
+
+a.login {
+    color: white;
+    padding: 0 .5rem;
+    
+}
 
 
 
@@ -25,8 +64,7 @@ img {max-width: 100%;
 
 .container { 
     width: 60%;
-    margin: 6rem auto;
-    
+    margin: 8rem auto;
  
 }
 
@@ -115,4 +153,18 @@ img {max-width: 100%;
     bottom: 1rem;
     left: 0;
     padding: 0.3rem;
+}
+
+.heart {
+    background-color: white;
+    position: absolute;
+    font-size: 1rem;
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
+
+}
+
+.heart:hover {
+    color: red;
 }
