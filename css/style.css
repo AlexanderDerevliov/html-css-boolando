@@ -10,6 +10,10 @@ img {max-width: 100%;
 
 /* COMMON */
 
+body {
+    font-family: sans-serif;
+}
+
 a {
     color: inherit;
 }
@@ -140,7 +144,7 @@ nav {
     position: absolute;
     bottom: 1rem;
     left: 0;
-    padding: 0.3rem;
+    padding: 0.2rem;
 }
 .green {
     display: inline-block;
@@ -150,7 +154,7 @@ nav {
     position: absolute;
     bottom: 1rem;
     left: 3rem;
-    padding: 0.3rem;
+    padding: 0.2rem;
 }
 .green1 {
     display: inline-block;
@@ -160,13 +164,13 @@ nav {
     position: absolute;
     bottom: 1rem;
     left: 0;
-    padding: 0.3rem;
+    padding: 0.2rem;
 }
 
 .heart {
     background-color: white;
     position: absolute;
-    font-size: 1rem;
+    font-size: 1.5rem;
     top: 0;
     right: 0;
     padding: 0.5rem;
